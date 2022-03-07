@@ -1,0 +1,12 @@
+- Use Node v16+
+- Run npm install
+- Go to layers folder and copy all layer files
+- Math folder names with layerConfigurations in /src/config.js
+- To test,  npm run generate
+- upload image folder using IPFS desktop
+- Using Pinata.cloud to import CID of the image folder
+- update baseUri with "ipfs://image CID"
+- update baseUri: npm run update_info
+- delete _metadata.json in json folder
+- upload json folder using IPFS desktop/Pinata
+- 
